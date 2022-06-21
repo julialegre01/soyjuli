@@ -1,0 +1,244 @@
+<html><head>
+    <meta charset="utf-8">
+    <title>SSC - V-3.1.57</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta charset="utf-8">
+
+    <meta name="description" content="overview &amp; stats">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- page specific plugin scripts -->
+    <!--[if lte IE 8]>
+        <script src="/Content/assets/js/excanvas.js"></script>
+    <![endif]-->
+    <!--[if lte IE 9]>
+            <link rel="stylesheet" href="/Content/dist/css/ace-part2.min.css" class="ace-main-stylesheet" />
+        <![endif]-->
+    <!--[if lte IE 9]>
+      <link rel="stylesheet" href="/Content/dist/css/ace-ie.min.css" />
+    <![endif]-->
+    <!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+    <!--[if lte IE 8]>
+    <script src="/Content/assets/js/html5shiv.js></script>
+    <script src="/Content/assets/js/respond.js"></script>
+    <![endif]-->
+    <!--[if IE]>
+    <script type="text/javascript">
+     window.jQuery || document.write("<script src='/Content/assets/js/jquery1x.js'>"+"<"+"/script>");
+    </script>
+    <![endif]-->
+    <script type="text/javascript">
+        if ('ontouchstart' in document.documentElement) document.write("<script src='../assets/js/jquery.mobile.custom.js'>" + "<" + "/script>");
+    </script>
+
+    <link href="/Bundles/css?v=esaqje6QDhUR0UO2Vqv-887bgLXheMG61hq9Bmtq5Ss1" rel="stylesheet">
+
+    <script src="/Bundles/js?v=3hTH9XF8ij0DpdJ5L3Vl9R-rEoqFpvHi0iUXko0gpcs1"></script><style type="text/css"></style>
+
+    <script src="/Bundles/js/mobile?v=gU4KIlMgBcOixDwjn4nCQf5fd7CFeY-T5T4W4Bu7Ya01"></script>
+
+
+<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+<body class="login-layout light-login" style="width: 100%; height: 100%">
+    <div class="main-container">
+        <div class="main-content">
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <div class="login-container">
+                        <div class="space-30"></div>
+                        <div class="center">
+                            <div class="row">
+                                <div>
+                                    <img src="/Content/Images/Logo.png">
+                                  </div>
+                            </div>
+                            <div class="row">
+                                <div class="center">
+                                    <img src="/Content/Images/LogoDJV.png">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="space-6"></div>
+
+                        <div class="position-relative">
+                            
+
+<div id="login-box" class="login-box visible widget-box no-border">
+    <div class="widget-body">
+        <div class="widget-main">
+            <h4 class="header blue lighter bigger">
+                <i class="ace-icon fa fa-coffee green"></i>
+                Inicio de sesión
+            </h4>
+            <div class="space-6"></div>
+<form action="/es-AR/Login/OnLogin" method="post"><input name="__RequestVerificationToken" type="hidden" value="-FFjUbHMrx48pBHJNfJajqxczd4qCTCYAqW1DuDctxQuV3YpGiSj4CL8FnoKBfBEvPWG2eFforj-7sB1r0YSGcxRNYPgZr5xd3Z2lMoqzmE1">                <fieldset>
+                    <label class="block clearfix">
+                        <span class="block input-icon input-icon-right">
+                            <input class="form-control" data-val="true" data-val-required="El Usuario es un campo obligatorio." id="User" name="User" placeholder="Usuario" type="text" value="">
+                            <i class="ace-icon fa fa-user"></i>
+                        </span>
+                        <span class="text-danger">
+                            <span class="field-validation-valid" data-valmsg-for="User" data-valmsg-replace="true"></span>
+                        </span>
+                    </label>
+                    <label class="block clearfix">
+                        <span class="block input-icon input-icon-right">
+                            <input class="form-control" data-val="true" data-val-required="La Contraseña es un campo obligatorio." id="Password" name="Password" placeholder="Contraseña" type="password">
+                            <i class="ace-icon fa fa-lock"></i>
+                        </span>
+                        <span class="text-danger">
+                            <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+                        </span>
+                    </label>
+                    <label class="block clearfix">
+                        <span class="text-danger">
+                            <span class="field-validation-valid" data-valmsg-for="" data-valmsg-replace="true"></span>
+                        </span>
+                    </label>
+                    <div class="space"></div>
+                    <div class="clearfix">
+                        <button id="Iniciar" onclick="javascript: SleepPage();" type="submit" class="width-35 pull-right btn btn-sm btn-primary">
+                            <i id="Icono" class="ace-icon fa fa-key"></i>
+                            <span class="bigger-130">Iniciar</span>
+                        </button>
+                    </div>
+                    <div class="space-4"></div>
+                </fieldset>
+</form>        </div>
+        <!-- /.widget-main -->
+
+        <div class="toolbar clearfix">
+            <div>
+                <a href="#" data-target="#forgot-box" class="forgot-password-link">
+                    <i class="ace-icon fa fa-arrow-left"></i>
+                    ¿Olvidó su contraseña?
+                </a>
+            </div>
+
+            <div>
+                <a href="#" data-target="#signup-box" class="user-signup-link">
+                    Registrarme
+                    <i class="ace-icon fa fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- /.widget-body -->
+</div>
+<!-- /.login-box -->
+<script>
+    function SleepPage() {
+        buttonStartLoading('#Iniciar');
+        $('.dropdown-toggle').attr("disabled", true);
+        $('.toolbar a[data-target]').on('click', function (e) {
+            return false;
+        });
+        //agregar campo mobile
+        var mq = matchMedia("(max-width: 768px)");
+        var $mobile = $('<input>', {
+            'type': 'hidden',
+            'value': (mq.matches == true) ? true : false,
+            'name': 'ModoMobile'
+        });
+        $('#Iniciar').closest('form').append($mobile);
+        $('#Iniciar').closest('form').submit();
+    }
+</script>
+<div id="forgot-box" class="forgot-box widget-box no-border">
+    <div class="widget-body">
+        <div class="widget-main">
+            <h4 class="header red lighter bigger">
+                <i class="ace-icon fa fa-key"></i>
+                Credenciales de acceso A.D.
+            </h4>
+
+            <div class="space-6"></div>
+            <p>
+                Estimado: Favor de contactarse con el C.A.U. para realizar la gestión del recupero de contraseña.
+            </p>
+        </div>
+        <!-- /.widget-main -->
+
+        <div class="toolbar center">
+            <a href="#" data-target="#login-box" class="back-to-login-link">
+                Volver al login
+                <i class="ace-icon fa fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+    <!-- /.widget-body -->
+</div>
+<!-- /.forgot-box -->
+<div id="signup-box" class="signup-box widget-box no-border">
+    <div class="widget-body">
+        <div class="widget-main">
+            <h4 class="header green lighter bigger">
+                <i class="ace-icon fa fa-users blue"></i>
+                Alta de nuevo usuario
+            </h4>
+
+            <div class="space-6"></div>
+            <p>Estimado: Para el alta del usuario, debe gestionarlo a traves de una solicitud A.G.P. indicando el mayor nivel de detalles de las tareas a realizar.</p>
+        </div>
+
+        <div class="toolbar center">
+            <a href="#" data-target="#login-box" class="back-to-login-link">
+                <i class="ace-icon fa fa-arrow-left"></i>
+                Volver al login
+            </a>
+        </div>
+    </div>
+    <!-- /.widget-body -->
+</div>
+<!-- /.signup-box -->
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        $(document).on('click', '.toolbar a[data-target]', function (e) {
+            e.preventDefault();
+            var target = $(this).data('target');
+            $('.widget-box.visible').removeClass('visible');//hide others
+            $(target).addClass('visible');//show target
+        });
+    });
+    mensajes.erroneo('Perdio Sesión', 'Su sesión ha expirado, favor de iniciar sesión nuevamente.');
+</script>
+                            <label class="smaller blue">Navegación óptima con Chrome / Internet Explorer 11</label>
+                        </div>
+                        <!-- /.position-relative -->
+                    
+                    </div>
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </div>
+    </div><div id="gritter-notice-wrapper" class="bottom-right"><div id="gritter-item-1" class="gritter-item-wrapper gritter-error gritter-light bottom-right bigger-130" style=""><div class="gritter-top"></div><div class="gritter-item"><div class="gritter-close"></div><div class="gritter-without-image"><span class="gritter-title">Perdio Sesión</span><p>Su sesión ha expirado, favor de iniciar sesión nuevamente.</p></div><div style="clear:both"></div></div><div class="gritter-bottom"></div></div></div>
+    <div style="border-width: 0; right: 0; position: absolute; top: 0; width:230px;">
+        <div class="bfh-selectbox bfh-languages bigger-130" data-available="es_AR,pt_BR" data-blank="false" data-flags="true" id="selectorLenguaje" data-language="es_AR"><input type="hidden" name="" value="es_AR"><a class="bfh-selectbox-toggle form-control" role="button" data-toggle="bfh-selectbox" href="#" style="height: 32px;"><span class="bfh-selectbox-option bigger-130"><i class="glyphicon bfh-flag-AR"></i>Español (Argentina)</span><span class="caret selectbox-caret"></span></a><div class="bfh-selectbox-options"><div role="listbox"><ul role="option"><li><a tabindex="-1" href="#" data-option="es_AR"><i class="glyphicon bfh-flag-AR"></i>Español (Argentina)</a></li><li><a tabindex="-1" href="#" data-option="pt_BR"><i class="glyphicon bfh-flag-BR"></i>Português (Brazil)</a></li></ul></div></div></div>
+
+<script type="text/javascript">
+    $('#selectorLenguaje').on('change.bfhselectbox', function (evento) {
+        var url = '/XX-YY';
+        var lenguajeSeleccionado = evento.currentTarget.value.replace('_', '-');
+        url = url.replace('XX-YY', lenguajeSeleccionado);
+        window.location.assign(url);
+    });
+</script>
+    </div>
+    <div class="row" style="margin-top: 60px;">
+        <div style="border-width: 0; left: 0; position: absolute; bottom: 0;">
+            <img src="D:\Datos\Downloads\logo1">
+        </div>
+        <div style="border-width: 0; right: 10px; position: absolute; bottom: 0;">
+            <p>
+    <b>Servidor: </b> PROD - 
+    <b>Versión:</b> 3.1.57.DB
+</p>
+        </div>
+    </div>
+
+</body></html>
